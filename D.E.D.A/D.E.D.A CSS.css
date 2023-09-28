@@ -96,8 +96,14 @@ nav a:hover {
 .content-box p {
     color: rgb(233, 213, 122);
     text-shadow: 8px 5px 5px rgba(2, 0, 8, 0.89);
+    text-align: left;
     margin: 0;  /* Removes the default margin to make elements closer */
     padding: 10px 0; /* Adds some vertical space around each element */
     background-color: transparent; /* Ensures no individual background color */
     border: none; /* Removes any individual borders */
+}
+
+.content-box h3 ~ p span{
+    font-weight: bold;  /* Makes the text bolder */
+    font-size: larger;  /* Makes the text larger */
 }
