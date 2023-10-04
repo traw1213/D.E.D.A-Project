@@ -1,0 +1,129 @@
+body {
+    background-image: url(Background\ D.E.D.A.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    
+}
+
+.main-content {
+    flex: 1;
+
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.heading-container {
+    display: inline-block;
+    text-align: left;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(250, 0, 0);
+    text-shadow: 8px 5px 5px rgba(109, 99, 99, 0.623);
+    margin-top: 5px;         /* Optional: Adds some space at the top */
+    background-color: black;
+    display: inline;         /* Makes the h1 behave like an inline element */
+    padding: 10px;           /* Adjust padding as needed */
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 8px 5px 5px  rgba(109, 99, 99, 0.623);
+    margin-top: 10px;        /* Adjust as needed */
+    border-bottom: 5px solid rgb(17, 16, 16);
+    padding-bottom: 5px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+nav ul {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none; /* Removes the default bullet points */
+    margin: 0 auto;        /* Centers the ul and removes the default margin */
+    padding: 0;            /* Removes the default padding */
+    text-align: center;    /* Centers the list items */
+    margin-bottom: 20px;
+}
+
+nav li {
+    display: inline;       /* Keeps the li elements horizontal */
+    padding: 50px;
+
+}
+
+nav a {
+    text-decoration: none; /* Removes the default underline from links */
+    color: blue;
+    padding: 5px 10px;     /* Adds some padding around the links */
+    background-color: #f4f4f4; /* Adds a background color to the links */
+    border-radius: 5px;    /* Rounds the corners of the links */
+}
+
+nav a:hover {
+    background-color: #63eb09; /* Optional: Changes the background color on hover */
+}
+
+h3 {
+    height: 100%;
+    display: block;                /* Ensures the h3 is block-level */
+    padding: 10px;                /* Adds space inside the box */
+    background-color: #585656ad;   /* Background color of the box */
+    border: 5px solid #ddec08;       /* Border around the box */
+    width: fit-content;           /* Adjusts the width to fit the content */
+    margin-left: 0;
+    margin-right: auto;               /* Centers the box if desired */
+    color: rgb(206, 15, 15);
+    font-weight: bold;
+}
+
+.content-box {
+    padding: 10px;
+    background-color: #585656d2;
+    border: 5px solid hsl(278, 94%, 20%);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-box h3,
+.content-box p {
+    color: rgb(233, 213, 122);
+    text-shadow: 8px 5px 5px rgba(2, 0, 8, 0.89);
+    text-align: left;
+    margin: 0;  /* Removes the default margin to make elements closer */
+    padding: 10px 0; /* Adds some vertical space around each element */
+    background-color: transparent; /* Ensures no individual background color */
+    border: none; /* Removes any individual borders */
+}
+
+.content-box h3 ~ p span{
+    font-weight: bold;  /* Makes the text bolder */
+    font-size: larger;  /* Makes the text larger */
+}
+
+
+
+footer {
+    margin-top: auto;
+    flex-shrink: 0;  /* This ensures the footer doesn't shrink */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
